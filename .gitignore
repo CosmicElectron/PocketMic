@@ -1,0 +1,12 @@
+# Release output (published as GitHub release assets, not committed)
+/release/
+*.apk
+
+# PC receiver build output
+pc/build/
+pc/dist/
+
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/

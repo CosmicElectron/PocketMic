@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lint>
+    <!-- Deliberately pinned: the build uses compileSdk/targetSdk 36 and AGP 9.2.1, the toolchain
+         installed on the build machine (no android-37 platform). androidx.core 1.18.0 is the
+         newest release that still compiles against SDK 36 (1.19 requires compileSdk 37). -->
+    <issue id="OldTargetApi" severity="ignore" />
+    <issue id="AndroidGradlePluginVersion" severity="ignore" />
+    <issue id="GradleDependency">
+        <ignore regexp="compileSdk" />
+        <ignore regexp="androidx.core:core-ktx than 1.18.0" />
+    </issue>
+</lint>

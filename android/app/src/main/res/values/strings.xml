@@ -1,0 +1,60 @@
+<resources>
+    <string name="app_name">PocketMic</string>
+
+    <string name="status_off">Off</string>
+    <string name="status_starting">Starting…</string>
+    <string name="status_waiting">Waiting for PC…</string>
+    <string name="status_streaming">Streaming to %1$s</string>
+
+    <string name="error_mic_unavailable">Microphone unavailable. Another app may be using it, or access was blocked. PocketMic keeps retrying.</string>
+    <string name="error_mic_silenced">A call or another app is using the microphone, or microphone access is switched off, so your PC hears silence. Sound comes back by itself once the microphone is free.</string>
+    <string name="error_network">Network problem (%1$s). Retrying…</string>
+    <string name="error_service_start">Android did not let PocketMic start the microphone (%1$s). Open PocketMic and tap Start again.</string>
+    <string name="error_port">Use a port in the range %1$d–%2$d</string>
+
+    <string name="address_format">This phone: %1$s, port %2$d</string>
+    <string name="address_unknown">This phone: no Wi-Fi address</string>
+    <string name="wifi_warning">This phone is not on Wi-Fi. Connect it to the same Wi-Fi network as your PC.</string>
+
+    <string name="start">Start</string>
+    <string name="stop">Stop</string>
+    <string name="mute">Mute</string>
+    <string name="unmute">Unmute</string>
+
+    <string name="level_label">Input level</string>
+    <string name="stats_idle">No PC connected</string>
+    <string name="stats_format">Packets sent: %1$d · Loss: %2$s · PC buffer: %3$s</string>
+    <string name="stats_loss">%1$.1f%%</string>
+    <string name="stats_buffer">%1$d ms</string>
+    <string name="stats_unknown">–</string>
+
+    <string name="settings_title">Settings</string>
+    <string name="settings_hint">Settings can be changed while PocketMic is off.</string>
+    <string name="mic_mode_label">Microphone mode</string>
+    <string-array name="mic_modes">
+        <item>Standard</item>
+        <item>Noise suppression</item>
+        <item>Raw (unprocessed)</item>
+    </string-array>
+    <string name="phone_name_hint">Phone name (shown on the PC)</string>
+    <string name="port_hint">Port</string>
+    <string name="help_text">On your PC, open PocketMic: it finds this phone automatically when both are on the same Wi-Fi. If it does not, type the address shown above into the PC app. In your PC apps, choose \"CABLE Output\" as the microphone.</string>
+
+    <string name="permission_title">Allow microphone access</string>
+    <string name="permission_rationale">PocketMic sends this phone\'s microphone to your PC over Wi-Fi, so it needs microphone access.</string>
+    <string name="permission_continue">Continue</string>
+    <string name="mic_permission_denied">PocketMic cannot stream without microphone access.</string>
+    <string name="permission_settings_title">Microphone access is off</string>
+    <string name="permission_settings_message">Microphone access was denied, and Android will not ask again. To use PocketMic, open its app settings and allow the microphone under Permissions.</string>
+    <string name="open_settings">Open settings</string>
+    <string name="notifications_denied">Notifications are off, so the Mute and Stop controls will not appear in the notification shade.</string>
+
+    <string name="channel_name">Microphone status</string>
+    <string name="channel_description">Shown while PocketMic is using the microphone</string>
+    <string name="notification_waiting">Mic on - waiting for PC</string>
+    <string name="notification_streaming">Streaming to %1$s</string>
+    <string name="notification_mic_unavailable">Microphone unavailable</string>
+    <string name="notification_mic_silenced">Mic in use by a call or another app - sending silence</string>
+    <string name="notification_network_problem">Network problem - retrying</string>
+    <string name="notification_title_muted">PocketMic (muted)</string>
+</resources>
